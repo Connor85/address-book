@@ -36,12 +36,18 @@
         <label for="additional-details">Additional Details</label>
         <input id="additional-details" class="form-control" type="text">
       </div>
+      <button type="submit">Add Contact</button>
     </form>
     <div id="output">
       <ul>
-        <li>Food: <span id="rfood"></span</li>
-        <li>Beverage: <span id="rbeverage"></span</li>
-        <li>Chip: <span id="rchip"></span</li>
+        <li>
+          <span class="clickable" id="fName"></span>
+          <span class="clickable" id="lName"></span>
+          <span class="info-hidden" id="address"></span>
+          <span class="info-hidden" id="email"></span>
+          <span class="info-hidden" id="phone-number"></span>
+          <span class="info-hidden" id="additional-details"></span>
+        </li>
       </ul>
     </div>
   </div>

@@ -1,3 +1,13 @@
 #output ul li {
   list-style-type: none;
 }
+
+.info-hidden  {
+  display: none;
+}
+
+.clickable:hover  {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
