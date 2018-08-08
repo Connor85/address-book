@@ -1,62 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Calculator</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Calculator</h1>
-      <form id="add">
-        <div class="form-group">
-          <label for="add1">1st Number:</label>
-          <input id="add1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="add2">2nd Number:</label>
-          <input id="add2" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Add!</button>
-      </form>
-      <form id="subtract">
-        <div class="form-group">
-          <label for="subtract1">1st Number:</label>
-          <input id="subtract1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="subtract2">2nd Number:</label>
-          <input id="subtract2" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Subtract!</button>
-      </form>
-      <form id="multiply">
-        <div class="form-group">
-          <label for="multiply1">1st Number:</label>
-          <input id="multiply1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="multiply2">2nd Number:</label>
-          <input id="multiply2" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Multiply!</button>
-      </form>
-      <form id="divide">
-        <div class="form-group">
-          <label for="divide1">1st Number:</label>
-          <input id="divide1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="divide2">2nd Number:</label>
-          <input id="divide2" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Divide!</button>
-      </form>
-      <div class="output">
-
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Address Book</title>
+</head>
+<body>
+  <h1>Address Book</h1>
+  <div class="container">
+    <form id="contact">
+      <div class="form-group">
+        <label for="fName">First Name:</label>
+        <input id="fName" class="form-control" type="text">
       </div>
+      <div class="form-group">
+        <label for="lName">Last Name:</label>
+        <input id="lName" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <input id="address" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input id="email" class="form-control" type="email">
+      </div>
+      <div class="form-group">
+        <label for="phone-number">Phone Number</label>
+        <input id="phone-number" class="form-control" type="tel">
+      </div>
+      <div class="form-group">
+        <label for="additional-details">Additional Details</label>
+        <input id="additional-details" class="form-control" type="text">
+      </div>
+    </form>
+    <div id="output">
+      <ul>
+        <li>Food: <span id="rfood"></span</li>
+        <li>Beverage: <span id="rbeverage"></span</li>
+        <li>Chip: <span id="rchip"></span</li>
+      </ul>
+    </div>
   </div>
-  </body>
+</body>
 </html>
